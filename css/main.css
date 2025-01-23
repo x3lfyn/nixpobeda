@@ -16,7 +16,7 @@
     }
 }
 
-@media (width > 600px) (width <= 770px) {
+@media (width > 600px) and (width <= 770px) {
     .gif {
         width: 80%;
     }
