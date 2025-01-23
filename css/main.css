@@ -1,0 +1,76 @@
+* {
+    font-family: ui-sans-serif, system-ui;
+}
+
+#years {
+    color: #82c4f2;
+}
+
+.gif {
+    margin: 1vh;
+}
+
+@media (width> 770px) {
+    .gif {
+        width: 40%;
+    }
+}
+
+@media (width > 600px) (width <= 770px) {
+    .gif {
+        width: 80%;
+    }
+}
+
+@media (width <= 600px) {
+    .gif {
+        width: 90%;
+    }
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    color: aliceblue;
+    text-align: center;
+}
+
+:root {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+:root::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #6493b3, #19943d, #5277c3) no-repeat;
+    background-size: 400%;
+    animation: gradient 10s ease infinite;
+    width: 100%;
+    margin: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.list {
+    margin: 0.5vh;
+}
